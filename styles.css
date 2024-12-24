@@ -70,13 +70,59 @@ footer {
     align-items: center;
 }
 
+#hero button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#hero .placeholder {
+    background-color: gray;
+    color: #E5E7EB;
+    padding: 100px;
+}
+
+#hero .text {
+    width: 400px;
+    margin: 100px;
+}
+
 #info {
     background-color: #F9FAF8;
-    color: black;
-    font-size: 48px;
-    font-weight: 900;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+#info .text {
+    color: black;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 40px;
+}
+
+#info .images {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+#info .images .image {
+    text-align: center;
+    height: 250px;
+    width: 160px;
+}
+
+#info .images .blank {
+    background-color: #F9FAF8;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    padding: 75px;
+    margin-bottom: 5px;
 }
 
 #quote {
@@ -106,24 +152,4 @@ footer {
 .secondary {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-#hero button {
-    background-color: #3882F6;
-    border: 0;
-    border-radius: 5px;
-    color: #F9FAF8;
-    padding: 10px 30px;
-    font-weight: 700;
-    font-size: 16px;
-}
-
-#hero .placeholder {
-    background-color: gray;
-    color: #E5E7EB;
-    padding: 100px;
-}
-
-#hero .text {
-    width: 400px;
 }
