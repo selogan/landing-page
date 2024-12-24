@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     height: 100vh;
     margin: 0;
     font-family: Roboto, sans-serif;
@@ -11,17 +12,18 @@ footer,
 header {
     background-color: #1F2937;
     display: flex;
-    padding: 1% 10%;
+    padding: 10px 0;
 }
 
 header {
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 header .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 500;
 }
 
 header .links {
@@ -59,14 +61,12 @@ footer {
     display: flex;
     flex: 1;
     width: 100vw;
+
 }
 
 #hero {   
     background-color: #1F2937;
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: 900;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -95,4 +95,35 @@ footer {
     font-weight: 900;
     justify-content: center;
     align-items: center;
+}
+
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hero button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#hero .placeholder {
+    background-color: gray;
+    color: #E5E7EB;
+    padding: 100px;
+}
+
+#hero .text {
+    width: 400px;
 }
