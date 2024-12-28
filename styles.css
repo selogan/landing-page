@@ -18,6 +18,7 @@ header {
 header {
     justify-content: space-around;
     align-items: center;
+    padding: 20px 0;
 }
 
 header .logo {
@@ -88,7 +89,7 @@ footer {
 
 #hero .text {
     width: 400px;
-    margin: 100px;
+    margin: 100px 0;
 }
 
 #info {
@@ -126,12 +127,27 @@ footer {
 }
 
 #quote {
+    padding: 50px 0;
     background-color: #E5E7EB;
-    color: black;
-    font-size: 48px;
-    font-weight: 900;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#quote p {
+    width: 50vw;
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+}
+
+#quote .author {
+    width: 40vw;
+    align-self: flex-end;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
 }
 
 #sign-up {
